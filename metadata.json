@@ -1,0 +1,6 @@
+{
+  "name": "ELYSEA Aesthetic Clinic",
+  "description": "ELYSEA Aesthetic Clinic in Bharuch, Gujarat — refined dermatology, trichology, skin, hair, and laser aesthetics led by Dr. Vrujal Mistry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

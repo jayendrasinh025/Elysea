@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --elysea-bg: #FFF8FA;
+  --elysea-soft: #F6DCE5;
+  --elysea-blush: #EBC2D0;
+  --elysea-rose: #A94F70;
+  --elysea-rose-deep: #8C3D5A;
+  --elysea-ink: #292126;
+  --elysea-muted: #777078;
+  --elysea-white: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--elysea-bg);
+  color: var(--elysea-ink);
+}
+
+body {
+  background-color: var(--elysea-bg);
+  color: var(--elysea-ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-editorial {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.font-body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-editorial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--elysea-rose);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
